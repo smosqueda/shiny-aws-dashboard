@@ -4,8 +4,6 @@ API-tampabay	i-5458f665	W
 AutonomyAdmin	i-75848209	A
 AZDC-10	i-c562b3b8	A
 AZDC-20	i-936611ea	A
-azlxawslnxgold - AWS Linux golden image  - Golden image for azlxprdinfo	i-9a7e0919	W
-azlxdevamibkup - creates full amis of instances on a schedule	i-8ecfe70e	W
 azlxdevfadsol01	i-f6a7b468	W
 azlxdevjmeter1	i-80db2111	W
 azlxdevjmetergold - For JMeter builds - Golden image for azlxprdinfo	i-d9a2b444	W
@@ -13,27 +11,6 @@ azlxdevmeddrpal	i-dc274842	W
 azlxdevpfcms1	i-6fc5b2ef	W
 azlxdevpfdb1	i-1199dd91	W
 azlxdevpfweb1	i-aef2852e	W
-azlxfunction01	i-d6a8ec4a	W
-azlxfunction02	i-8e4ba21f	W
-azlxprdfs0 - Hot backup for pxprodfs	i-5b88bbd8	W
-azlxprdinfo - Production Information and Build system	i-89f12715	W
-azlxprdpfcms1	i-52810cd1	W
-azlxprdpfcms1-reboottest	i-3797a7ab	W
-azlxprdpfdb1	i-517561d7	W
-azlxprdpfdb2	i-527561d4	W
-azlxprdpfsol1	i-7a9f12f9	W
-azlxprdpfvar1	i-1c31b39f	W
-azlxprdpfvar2	i-0a39bb89	W
-azlxprdpfvar3	i-e9d35e6a	W
-azlxprdpfweb1	i-66e964e5	W
-azlxprdpfweb2	i-22e469a1	W
-azlxprdpfweb3	i-b89f0f3b	W
-azlxprdsolr0	i-0037129d	W
-azlxprdsolr1	i-88321715	W
-azlxprdsolr2	i-3a08f2a5	W
-azlxprdtools0 - aws linux tools replacement machine	i-2f6c3fac	W
-azlxqapfcms1	i-548705d7	W
-azlxqapfsol1	i-4f8e0ccc	W
 azlxqapfvar1	i-16ad2f95	W
 azlxqapfvar2	i-71ee6cf2	W
 azlxqapfweb1	i-d3fa7850	W
@@ -41,11 +18,7 @@ azlxqapfweb2	i-3d8200be	W
 azlxstgpfcms1	i-9e341f1e	W
 azlxstgpfsol1	i-6691a1e6	W
 azlxstgpfweb1	i-201d36a0	W
-AZWNPrdSsrs01	i-7ced26e0	W
-CLA-prd	i-12e4918c	W
 developer-3	i-2fe43fc4	A
-django-cms-1	i-f7b97596	D
-django-cms-2	i-5ad41a21	D
 django-db-00	i-d62c26b6	D
 django-db-01	i-14212b74	D
 django-dev-1	i-a3cfe60a	V
@@ -58,38 +31,19 @@ django-qa-db-1	i-54fc7b07	V
 django-qa-web-1	i-9b6684c9	V
 django-web-1	i-2773ee49	D
 django-web-2	i-23e2844d	D
-drupal-db-1	i-892c10e9	D
 drupal-dev-web-1	i-5e388632	V
-drupal-lb-1-recovery	i-661072f8	D
 drupal-qa-web-1	i-bb2695e8	V
-drupal-web-1	i-03ed2f6c	D
-drupal-web-2	i-c2e391a8	D
-drupal-web-upgrades	i-b3f910e2	D
 ece-web-2	i-bb4421d5	D
-function-prd-1	i-4bfc4e34	A
-function-prd-2	i-117bf0f9	A
 gluster-c	i-fee9d89b	D
 gluster-d	i-8aba8bef	D
 indexer-dev-1	i-11483e69	A
 indexer-dev-2	i-6f374a3f	A
-indexer-prd-1-new	i-0d430ce6	A
-indexer-prd-2-new	i-c69de42d	A
-indexer-prd-3-new	i-3df38ad6	A
 indexer-qa-1	i-54baf67f	A
 indexer-qa-2	i-d4b8f4ff	A
 indexer-qa-3	i-44421caf	A
 indexer-stg-1	i-05bf476d	A
 livesite-dev-1	i-ce8ff09e	A
 livesite-dev-varnish-1	i-ac741afe	A
-livesite-fullstack-prd-1--USE_IF_NEEDED--used to b	i-528efccf	A
-livesite-prd-1	i-8ab3b6f0	A
-livesite-prd-2	i-bf1f263a	A
-livesite-prd-3	i-8deb8f16	A
-livesite-prd-4	i-acbf1d9d	A
-livesite-prd-varnish-1	i-12164a6f	A
-livesite-prd-varnish-2	i-935d6409	A
-livesite-prd-varnish-3	i-e179407b	A
-livesite-prd-varnish-4a	i-6ec26c5f	A
 livesite-qa-1	i-1f2f6f34	A
 livesite-qa-2	i-bbace190	A
 livesite-qa-varnish-1	i-9be704fb	A
@@ -97,27 +51,10 @@ livesite-qa-varnish-2	i-b047ebcd	A
 livesite-stg-1	i-59406a09	A
 mongodb-dev	i-a4c1283b	W
 news-web-1	i-55eae73d	D
-pf-cms-1	i-5a759822	D
-pf-db-0	i-c2b5e4a2	D
-pf-db-1	i-5bfe843f	D
-pf-lb-1	i-fec92486	D
-pf-migrator-db	i-d5142c50	V
-pf-pg-db-migrator-9.4	i-1491a991	V
-pf-solr-1	i-06ecac66	D
-pf-varnish-1	i-6cd4840c	D
-pf-varnish-2	i-4ebdb12e	D
-pf-varnish-3	i-f20b9f97	D
-pf-web-1	i-54ad402e	D
-pf-web-2	i-feac4184	D
-pf-web-3	i-eca3af8c	D
-php-1	i-34025caa	D
-php-1-bad-recovered_NOT_IN_USE	i-5d62ff3b	D
-php-2	i-73c58f02	D
 php-dev-1	i-1795c97a	A
 php-dev-2	i-232c6d73	A
 prod-db-0	i-f71e8494	D
 prod-db-1	i-b30461d0	D
-SI-WIKI-ITKICK-LDAP	i-626956dd	W
 sp-tester-1 - SLA monitor - AWS VPN endpoint	i-0fef1b62	V
 stg-gluster-1	i-f1983594	V
 stg-gluster-2	i-25b00b40	V
@@ -125,31 +62,14 @@ teamsite-db-dev-1	i-ba1a82de	A
 teamsite-dev-1	i-8e8870ea	A
 teamsite-dev-search-1	i-181b837c	A
 teamsite-dev-web-1	i-41fe603b	A
-teamsite-prd-1	i-7cc5ff50	A
-teamsite-prd-db-1	i-44a98e3d	A
-teamsite-prd-db-2	i-4cb17598	A
-teamsite-prd-search	i-34ec2735	A
-teamsite-prd-web-1	i-03a0fe72	A
 teamsite-qa-1	i-2fb55e40	A
 teamsite-qa-db-1	i-f69da897	A
 teamsite-qa-search-1	i-835eeeec	A
 teamsite-stg-1	i-75bb770f	A
 teamsite-stg-db-1	i-e4a37199	A
 teamsite-stg-search-1	i-7f1855f8	A
-TPC-CORP-NAT	i-65f1d8cd	W
-TPC-Corp-PressReports	i-2dfbd285	W
-TPC-Corp-SLAMONITOR	i-2d5d63fb	W
-TPC-Corp-StrategicInitiatives	i-f7fbb046	W
 TPC-DC-30	i-6512c1e6	W
-TPC-drupal-db-1	i-e786ec58	W
-TPC-ESB-1b	i-68cc59eb	W
-TPC-ESB-1c	i-836f0b07	W
-TPC-FTP-Primary-140	i-473305f9	W
-TPC-FTP-Secondary-140	i-a9310717	W
-tpc-gluster1	i-725fd6f6	W
-tpc-gluster2	i-4d50d9c9	W
 tpc-glusterq	i-0ac74e8e	W
-TPC-prd-tools01.sptimes.com	i-0cb4f4d9	W
 TPC-Web-Bastian-1b	i-a608e80f	W
 TPC-Web-Bastian-1c	i-a85c6455	W
 TPC-Web-CLA	i-f62c2755	W
@@ -166,6 +86,3 @@ TPC-Web-Logs	i-717f2ba7	W
 TPC-Web-MMC	i-f8ea417c	W
 TPC-Web-MMC	i-c52ca711	W
 TPC-Web-NAT	i-948a5a46	W
-TPC-Web-SLAMONITOR	i-50829f87	W
-ubuntu-golden-image-14.04 - Golden image for azlxprdinfo	i-ab62e028	W
-ubuntu-golden-image-16.04 - Golden image for azlxprdinfo	i-85f44c18	W
